@@ -349,16 +349,129 @@
       }
 
 
-      
+
+
+   
     body {
       font-family: monospace, 'Times New Roman',serif;
     }
 
+    
+
+
+  .navbar_logo > img{
+    position: relative;
+    bottom: -20px;
+    left: 210px;
+  }
+
+  .navbar_logo > p{
+    font-size: 26px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 45px;
+    left: 260px;
+  }
+
+
+  .nav-item1 > a{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 95px;
+    left: 420px;
+  }
+
+
+
+  .nav-item2 > a{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 116px;
+    left: 530px;
+  }
+
+
+
+
+  .nav-item3 > a{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 137px;
+    left: 640px;
+  }
+
+
+
+
+  .nav-item4 > a{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 157px;
+    left: 770px;
+  }
+
+
+
+
+  .nav-item5 > a{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 178px;
+    left: 930px;
+  }
+
+
+  .nav-item6 > a{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 199px;
+    left: 1040px;
+  }
+
+ .sun4 > img{
+  background-repeat:no-repeat ;
+  position: relative;
+    bottom: 250px;
+    left: 1230px;
+ }
+
+
 
   .icons > button{
     background-color: green;
-    color:black
+    color:black;
+    position: relative;
+    bottom: 291px;
+    left: 1300px;
   }
+
+  .icons > a{
+    position: relative;
+    bottom: 291px;
+    left: 1290px;
+  }
+
+
+  .header > h1{
+    position: relative;
+    left: 40px;
+  }
+
+  .header > h1 + p{
+    
+    position: relative;
+    bottom: 22px;
+    left: 40px;
+  }
+
+
+
 
 
   .header > p + button{
@@ -392,7 +505,7 @@
 
 
     .high_quality {
-      background-color: black;
+
       border: 1px solid black;
     }
 
@@ -403,7 +516,7 @@
 
     .big_clocetion {
       color: white;
-      background-color: rgb(78, 78, 78);
+  
       border: 1px solid black;
     }
 
@@ -413,7 +526,7 @@
 
     .top_resources {
       color: white;
-      background-color: rgb(78, 78, 78);
+  
       border: 1px solid black;
     }
 
@@ -423,7 +536,7 @@
 
     .big_community {
       color: white;
-      background-color: rgb(78, 78, 78);
+ 
       border: 1px solid black;
     }
 
@@ -531,7 +644,7 @@
 
     .teammember {
       color:white;
-      background-color: rgb(44, 42, 42);
+ 
       border: 3px solid black;
     }
 
@@ -554,7 +667,7 @@
     /*Catalog page*/
 
     body{
-      background-color:rgb(44, 42, 42) ;
+    
       color:white;
     }
 
