@@ -347,151 +347,45 @@
       [hidden] {
         display: none;
       }
-
-
-
-
    
     body {
       font-family: monospace, 'Times New Roman',serif;
+      background-color:rgba(11, 18, 23, 1);
     }
 
-    
-
-
-  .navbar_logo > img{
-    position: relative;
-    bottom: -20px;
-    left: 210px;
-  }
-
-  .navbar_logo > p{
-    font-size: 26px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 45px;
-    left: 260px;
-  }
-
-
-  .nav-item1 > a{
-    font-size: 18px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 95px;
-    left: 420px;
-  }
 
 
 
-  .nav-item2 > a{
-    font-size: 18px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 116px;
-    left: 530px;
-  }
-
-
-
-
-  .nav-item3 > a{
-    font-size: 18px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 137px;
-    left: 640px;
-  }
-
-
-
-
-  .nav-item4 > a{
-    font-size: 18px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 157px;
-    left: 770px;
-  }
-
-
-
-
-  .nav-item5 > a{
-    font-size: 18px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 178px;
-    left: 930px;
-  }
-
-
-  .nav-item6 > a{
-    font-size: 18px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 199px;
-    left: 1040px;
-  }
-
- .sun4 > img{
-  background-repeat:no-repeat ;
-  position: relative;
-    bottom: 250px;
-    left: 1230px;
- }
-
-
-
+  
   .icons > button{
-    background-color: green;
-    color:black;
-    position: relative;
-    bottom: 291px;
-    left: 1300px;
-  }
-
-  .icons > a{
-    position: relative;
-    bottom: 291px;
-    left: 1290px;
-  }
-
-
-  .header > h1{
-    position: relative;
-    left: 40px;
-  }
-
-  .header > h1 + p{
-    
-    position: relative;
-    bottom: 22px;
-    left: 40px;
+    background-color: rgba(20, 27, 34, 1);
   }
 
 
 
-
-
-  .header > p + button{
-    background-color: green;
-    color: black;
+  .icons > button + button{
+    background-color:rgba(33, 231, 134, 1);
+    font-size: 20px;
+    font-weight: bold;
   }
 
-  .header > p + button + button{
-    border: 1px solid green;
+
+
+  .header > button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(33, 231, 134, 1);
+  }
+
+  .header > button + button{
+    color: white;
     background-color: black;
-    color:white;
+    border: 2px solid rgba(33, 231, 134, 1);
   }
 
-    .header > h1 + p + p{
-      font-weight: bold;
-    }
 
-    .header > h1 + p + p + p + p{
-      font-weight: bold;
-    }
+
+
 
 
     .about_us > h2{
@@ -505,43 +399,39 @@
 
 
     .high_quality {
-
-      border: 1px solid black;
+      background-color: rgba(20, 27, 34, 1);
     }
 
     .high_quality > h3{
-      color:rgb(20, 116, 20);
+      color: rgba(33, 231, 134, 1);
     }
 
 
     .big_clocetion {
       color: white;
-  
-      border: 1px solid black;
+      background-color: rgba(20, 27, 34, 1);
     }
 
     .big_clocetion > h3{
-      color:rgb(20, 116, 20);
+      color:rgba(33, 231, 134, 1);
     }
 
     .top_resources {
       color: white;
-  
-      border: 1px solid black;
+      background-color: rgba(20, 27, 34, 1);
     }
 
     .top_resources > h3{
-      color:rgb(20, 116, 20);
+      color:rgba(33, 231, 134, 1);
     }
 
     .big_community {
       color: white;
- 
-      border: 1px solid black;
+      background-color: rgba(20, 27, 34, 1);
     }
 
     .big_community > h3{
-      color:rgb(20, 116, 20);
+      color:rgba(33, 231, 134, 1);
     }
 
 
@@ -562,12 +452,13 @@
 
 
 
-    .connectwallet {
-      border: 4px solid grey;
+    .connectwallet{
+      background-color: rgba(20, 27, 34, 1);
     }
+    
 
     .connectwallet > h4 {
-      color:limegreen;
+      color:rgba(33, 231, 134, 1);
     }
 
     .connectwallet > p{
@@ -576,12 +467,13 @@
 
 
 
-    .selectyourquality {
-      border: 4px solid grey;
-    }
 
+    .selectyourquality{
+      background-color: rgba(20, 27, 34, 1);
+    }
+  
     .selectyourquality > h4 {
-      color: limegreen;
+      color: rgba(33, 231, 134, 1);
     }
 
     .selectyourquality > p {
@@ -591,12 +483,12 @@
 
 
 
-    .confiemtheTransaction {
-      border: 4px solid grey;
-    }
+   .confiemtheTransaction{
+    background-color: rgba(20, 27, 34, 1);
+   }
 
     .confiemtheTransaction > h4 {
-      color: limegreen;
+      color: rgba(33, 231, 134, 1);
     }
 
     .confiemtheTransaction > p{
@@ -606,12 +498,12 @@
 
 
 
-    .receiveyournfts {
-      border: 4px solid grey;
-    }
+  .receiveyournfts{
+    background-color: rgba(20, 27, 34, 1);
+  }
 
     .receiveyournfts > h4{
-      color: limegreen;
+      color: rgba(33, 231, 134, 1);
     }
 
     .receiveyournfts > p{
@@ -642,92 +534,140 @@
     }
 
 
-    .teammember {
+    .Ralph_Edwards {
       color:white;
- 
-      border: 3px solid black;
+      background: rgba(20, 27, 34, 1);
+
     }
 
-    .teammember > h5{
-      font-size: 16px;
+
+    .Jason_Smith {
+      background: rgba(20, 27, 34, 1);
     }
+
+
+
+
+    .Tony_Wings{
+      background: rgba(20, 27, 34, 1);
+
+    }
+
+
+  .Esther_Howard{
+    background: rgba(20, 27, 34, 1);
+  }
+
+
+
+
+  .Jenny_Wilson{
+    background: rgba(20, 27, 34, 1);
+  }
+
+
+
+
+  .Robert_Fox{
+    background: rgba(20, 27, 34, 1);
+  }
+
+
+
+
+  .Devon_Lane{
+    background: rgba(20, 27, 34, 1);
+  }
 
 
 
     .binabox_partner > h2{
-      color: green;
+      color: rgba(33, 231, 134, 1);
     }
 
 
-    .join_us > a{
-      background-color: blue;
+    .join_us > button{
+      color: white;
+      background-color: rgba(88, 101, 242, 1);
     }
 
 
     /*Catalog page*/
 
     body{
-    
       color:white;
     }
 
 
+
+    .header1 > h2 + a + a{
+      color:rgba(33, 231, 134, 1);
+    }
+
+
+
     .card1{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card2{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card3{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card4{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card5{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card6{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card7{
-      border: 1px solid black;
-      width: 130px;
+      background: rgba(255, 255, 255, 0.05);
+
     }
 
     .card8{
-      border: 1px solid black;
-      width: 130px;
-    }
+      background: rgba(255, 255, 255, 0.05);
 
-    .card9{
-      border: 1px solid black;
-      width: 130px;
     }
 
 
-    .join_us > button{
-      background-color: green;
+    .join_us {
+      background-image: linear-gradient(rgba(10, 190, 102, 1) rgba(35, 51, 222, 1));
+    }
+
+
+    .join_us > button + button{
+      background-color: rgba(33, 231, 134, 1);
       color:black;
     }
 
 /*item page*/
 
-body{
-  background-color: rgb(58, 58, 58);
-  color:white;
+
+
+.icons3 > img + button{
+  background-color: rgba(20, 27, 34, 1);
+}
+
+
+.icons3 > img + button + button{
+  background-color:rgba(33, 231, 134, 1) ;
 }
 
 
@@ -739,8 +679,8 @@ body{
   color:white;
 }
 
-.mainheader > p{
-  color: green;
+.mainheader > h2 + a + p > a{
+  color: rgba(33, 231, 134, 1);
 }
 
 
@@ -802,37 +742,50 @@ body{
 }
 
 .item > h3{
-  color: green;
+  color: rgba(33, 231, 134, 1);
 }
 
 .item > button{
-  background-color: rgb(117, 160, 54);
+  background-color: rgba(33, 231, 134, 1);
 }
 
 .item > a{
   border: 1px solid white;
+  padding: 8px;
 }
+
+
 
 .nft_cards{
   color: white;
 }
 
 .nft_cards > button{
-  background-color: black;
-  color: white;
-  border: 2px solid green;
+background-color: black;
+color: white;
+  border: 1px solid rgba(33, 231, 134, 1);
   
 }
 
 
 .buton143978 > button{
-  background-color: green;
+  background-color: rgba(33, 231, 134, 1);
   color: black;
 }
 
 
-.Join_Us > button{
-  background-color: green;
+
+.Join_Us2 > h3 + p + button{
+  background-color:rgba(88, 101, 242, 1);
+}
+
+
+.Join_Us2 > h3 + p + button > a{
+  color:white;
+}
+
+.Join_Us2 > h3 + p + button + button{
+  background-color: rgba(33, 231, 134, 1);
   color: black;
 }
 
