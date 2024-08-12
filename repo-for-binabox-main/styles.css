@@ -386,12 +386,11 @@
 
 
 
-
-
     .about_us > h2{
       font-size: 32px;
       font-weight: 1000;
     }
+
 
     .about_us {
       line-height: 2.5rem;
@@ -798,3 +797,5 @@ color: white;
 .footer_bottom > p{
   font-weight: bolder;
 }
+
+/*contact us page*/
